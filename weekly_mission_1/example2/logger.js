@@ -1,5 +1,3 @@
-// logger.js
-
 // Esta es una función que se guardara en este módulo como info
 exports.info = (message) => {
     console.log(`info: ${message}`)
@@ -15,3 +13,4 @@ exports.info = (message) => {
     logger.info('This is an informational message')
     logger.verbose('This is a verbose message')
    * */
+
