@@ -47,6 +47,6 @@ const Issue = {
     },
 
     getGeneralInfo: function(){
-        return `we have this author ${this.author} for this title ${this.title}`
+        return ` Acd uthor ${this.author} for this title ${this.title}`
     }
 }
