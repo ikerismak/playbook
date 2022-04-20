@@ -1,4 +1,4 @@
-import Viajero from "./viajero";
+import Viajero from "./viajero.js";
 
 
 

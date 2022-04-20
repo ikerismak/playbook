@@ -12,3 +12,7 @@ export default class Explorer{
         return `Explorer ${this.name}, username: ${this.username}`
     }
 }
+
+
+//const explorerExample = new Explorer("name","iker","mission2");
+//console.log(explorerExample.getNameAndUsername());

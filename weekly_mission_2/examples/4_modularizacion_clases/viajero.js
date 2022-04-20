@@ -1,4 +1,4 @@
-import Explorer from "./explorer";
+import Explorer from "./explorer.js"
 
 
 
@@ -19,3 +19,5 @@ export default class Viajero extends Explorer {
     }
 
 }
+
+
