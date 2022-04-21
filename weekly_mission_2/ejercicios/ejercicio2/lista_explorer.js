@@ -131,7 +131,7 @@ console.log("");
 
 const sumaEx = explorers.reduce((acc,element) => acc + element.exercises_completed,0)
 
-console.log(sumaEx);
+console.log("Cuantos ejercicios se completaron? :",sumaEx);
 
 
 
@@ -146,7 +146,7 @@ console.log("");
 
 const finishedEx = explorers.some((element5) => element5.missions.frontend.exercisesFinished === true);
 
-console.log(finishedEx);
+console.log("Al menos un explorer termino los ejercicios de fronted? :",finishedEx);
 
 
 
@@ -154,3 +154,7 @@ console.log("");
 console.log("------- EJEMPLO 8:Obtén la validación si todos los explorers tienen la propiedad isFinished del onboarding como true. Usa EVERY.  ----------");
 console.log("");
 console.log("");
+
+const finishedExpl = explorers.every((valid) => valid.missions.frontend.isFinished === true);
+
+console.log("Todos los explorers terminaron? :",finishedExpl);
