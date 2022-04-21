@@ -108,3 +108,49 @@ const stackJs = explorers.filter( element3 =>
 
 
 console.log(stackJs);
+
+
+
+console.log("------- EJEMPLO 5: UTILIZAR FIND PARA ENCONTRAR EL PRIMER EXPLORER QUE SEA DE LA CDMX ----------");
+console.log("");
+console.log("");
+
+const cdmxExplorer = explorers.find((explorer) => explorer.city === "CDMX");
+
+console.log(cdmxExplorer);
+
+
+
+console.log("");
+console.log("------- EJEMPLO 6: Obtén la suma de todos los exercises_completed, usa REDUCE  ----------");
+console.log("");
+console.log("");
+
+
+
+
+const sumaEx = explorers.reduce((acc,element) => acc + element.exercises_completed,0)
+
+console.log(sumaEx);
+
+
+
+
+
+
+
+console.log("");
+console.log("------- EJEMPLO 7: Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true, usa SOME  ----------");
+console.log("");
+console.log("");
+
+const finishedEx = explorers.some((element5) => element5.missions.frontend.exercisesFinished === true);
+
+console.log(finishedEx);
+
+
+
+console.log("");
+console.log("------- EJEMPLO 8:Obtén la validación si todos los explorers tienen la propiedad isFinished del onboarding como true. Usa EVERY.  ----------");
+console.log("");
+console.log("");
